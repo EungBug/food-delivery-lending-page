@@ -1,0 +1,46 @@
+:root {
+  --color-primary: #d1003f;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+.primary {
+  color: var(--color-primary);
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header span {
+  color: var(--color-primary);
+  font-size: 30px;
+}
+
+.hero {
+  width: 100vw;
+  height: 600px;
+  background-image: url('../images/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .title {
+  background-color: var(--color-white);
+  width: 878px;
+  height: 220px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-black);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 56.25px;
+}
