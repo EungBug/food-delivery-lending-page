@@ -44,3 +44,84 @@ header span {
   font-weight: 900;
   line-height: 56.25px;
 }
+
+.app {
+  width: 100vw;
+  height: 601px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+.app img.mexican {
+  width: 461px;
+  height: 431px;
+  position: absolute;
+  left: -80px;
+  bottom: -80px;
+}
+
+.app img.egg {
+  width: 382px;
+  height: 395px;
+  position: absolute;
+  top: -84px;
+  right: -77px;
+}
+
+.app .infos {
+  display: flex;
+  gap: 100px;
+  z-index: 1;
+}
+
+.app .infos > img {
+  width: 218px;
+  height: 441px;
+}
+
+.app .infos .info {
+  padding: 32px;
+}
+
+.app .infos .info h2 {
+  color: var(--color-black);
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.app .infos .info li {
+  margin-bottom: 12px;
+  color: var(--color-black);
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+  padding-left: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.app .infos .info li:last-child {
+  margin-bottom: 36px;
+}
+
+.app .infos .info li::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  background-image: url('../images/check.svg');
+  background-size: 24px 24px;
+  position: absolute;
+  left: 0;
+}
+
+.app .infos .info .store-buttons {
+  display: flex;
+  gap: 32px;
+}
