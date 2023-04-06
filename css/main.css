@@ -285,3 +285,54 @@ header span {
   transform: translateX(-50%);
   position: absolute;
 }
+
+/* Footer */
+footer {
+  height: 550px;
+  background-color: var(--color-primary);
+  padding: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+  gap: 206px;
+}
+
+footer > ul > li ul.menu li h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+footer > ul > li ul.menu li a {
+  display: block;
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+footer > ul > li ul.menu li img {
+  width: 153px;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+footer .copyright {
+  font-size: 20px;
+  line-height: 24px;
+}
