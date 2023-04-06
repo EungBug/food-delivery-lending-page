@@ -8,6 +8,7 @@
   color: var(--color-primary);
 }
 
+/* Header */
 header {
   height: 100px;
   display: flex;
@@ -20,6 +21,7 @@ header span {
   font-size: 30px;
 }
 
+/* Hero */
 .hero {
   width: 100vw;
   height: 600px;
@@ -45,6 +47,7 @@ header span {
   line-height: 56.25px;
 }
 
+/* App */
 .app {
   width: 100vw;
   height: 601px;
@@ -124,4 +127,63 @@ header span {
 .app .infos .info .store-buttons {
   display: flex;
   gap: 32px;
+}
+
+/* Join Us */
+.join-us {
+  width: 100vw;
+  height: 570px;
+  background-color: var(--color-primary);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.join-us .hamburguer {
+  position: absolute;
+  top: 71px;
+  right: 242px;
+  z-index: 0;
+}
+
+.join-us h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--color-white);
+  line-height: 56.25px;
+}
+
+.join-us .icons {
+  z-index: 1;
+  display: flex;
+  gap: 40px;
+}
+
+.join-us .icons .icon {
+  width: 246px;
+  height: 274px;
+  background-color: var(--color-white);
+  border-radius: 16px;
+  padding: 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.join-us .icons .icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.join-us .icons .icon span {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 37.5px;
+  color: var(--color-black);
 }
