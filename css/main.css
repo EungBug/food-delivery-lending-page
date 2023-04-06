@@ -187,3 +187,101 @@ header span {
   line-height: 37.5px;
   color: var(--color-black);
 }
+
+/* FAQ */
+.faq {
+  width: 100vw;
+  height: 865px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+.faq img.pizza {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  width: 440px;
+}
+
+.faq img.hotdog {
+  position: absolute;
+  bottom: 33px;
+  right: -202px;
+  width: 449px;
+}
+
+.faq h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--color-black);
+  line-height: 56.25px;
+  margin-bottom: 80px;
+}
+
+.faq .questions {
+  width: 770px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 1;
+}
+
+.faq .question-box {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;
+  color: var(--color-black);
+}
+
+.faq .question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 1s;
+}
+
+.faq .question-box .question .material-icons {
+  font-weight: 900;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.faq .question-box .question h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32.81px;
+}
+
+.faq .question-box p {
+  font-size: 20px;
+  line-height: 23px;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  transition: 0.3s;
+}
+
+.faq .question-box p.show {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.faq p.help {
+  width: 400px;
+  color: var(--color-black);
+  font-size: 20px;
+  line-height: 23.44px;
+  text-align: center;
+  margin-bottom: 80px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
